@@ -1,0 +1,21 @@
+@media only screen and (max-width: 640px) {
+	header.page-header { padding: 10px; background-color: #fff; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+	header.page-header .mobile-menu-toggle { display: inline-block; }
+	header.page-header .nav-list { max-height: 0; overflow: hidden; margin-top: 10px; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
+	header.page-header.active .nav-list { max-height: 1000px; }
+	header.page-header.active { -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3); }
+	header.page-header .nav-list li { display: block; margin: 0; padding: 10px 0; }
+
+	footer.page-footer { padding: 10px; bottom: 0; right: auto; left: 0; width: 100%; text-align: center; }
+	footer.page-footer .footer-socials li { margin-right: 20px; }
+
+	.page-home header.page-header { display: block; }
+	.page-home .home-content .nav-list { display: none; }
+
+	.page-music .music-content .hbr-logo { margin-bottom: 10px; }
+	.page-music .music-content .hbr-logo img { width: 180px; }
+	.page-music .music-content .col2-set .col-left { display: block; margin: 0 0 20px; }
+	.page-music .music-content .col2-set .col-right { display: block; }
+
+	.page-lookbook .lookbook-content .lookbook-items .lookbook-item { margin-bottom: 20px; }
+}
